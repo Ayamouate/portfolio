@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aya Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shortcut icon" href="aya.png" type="image/png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+   <header class="header">
+    <a href="#" class="logo">Aya.ma</a>
+    <nav class="navbar">
+        <a href="#home" class="active"><b>home</b></a>
+        <a href="#Portfolio"><b>Portfolio</b></a>
+        <a href="#contact"><b>contact</b></a>
+    </nav>
+   </header>
+   <!-- home secion -->
+   <section class="home" id="home">
+    <div class="parent">
+        <div class="home-content">
+            <h1>Hi, I'm Aya Mouate</h1>
+            <h3><b>Frontend developer</b></h3>
+            <p><b>Jenior front-end developer with 2+ years of experience designing and building responsive
+                web design and mobile apps in the financial industry. Proficient with CSS and JS Frameworks,
+                with extensive knowledge of UX and user psychology. Notable achievements include boosting the conversion 
+                rate of an existing website by 80% with improved code and design.</b></p>
+            <div class="a-box">
+                <a href="#skills">skills</a>
+            </div>
+          <div class="home-sci">
+            <a href="https://www.instagram.com/https_aya19/"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://twitter.com/Aya_Mouate"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://www.linkedin.com/in/aya-mouate-707438265"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/AYLA71"><i class='bx bxl-github' ></i></a>
+            <a href="mailto:ayla44aya@gmail.com"><i class='bx bxl-gmail'></i></a>
+          </div>
+        </div>
+      <div class="ayalogo">
+        <img src="aya.png" alt="aya logo" width="360" height="360"/>
+      </div>
+    </div>
+ </section> 
+    <!-- skills section -->
+    <section id="skills" class="skills">
+        <div class="skill">
+            <h2>My skills</h2>
+            <li><h3>Html</h3>
+                <span class="bar"><span class="html"></span></span>
+            </li>
+            <li><h3>CSS</h3>
+                <span class="bar"><span class="css"></span></span>
+            </li>
+            <li><h3>C</h3>
+                <span class="bar"><span class="c"></span></span>
+            </li>
+            <li><h3>Python</h3>
+                <span class="bar"><span class="python"></span></span>
+            </li>
+        </div>
+    </section>
+    <!-- Portfolio section -->
+    <section class="Portfolio" id="Portfolio">
+      <div class="main-text">
+          <h2>Latest Projects</h2><br>
+      </div>
+    <div class="container">
+        <div class="portfolio-gallery">
+            <div class="port-box">
+                <div class="port-image">
+                  <img src="imgcv.png" alt="" width="300" height="200">
+                </div>
+                    <div class="port-content">
+                      <h3>My Resume in HTML</h3>
+                      <p>this is my resume that I create it with HTML only</p>
+                      <a href="https://ayla71.github.io/projetmin/"><i class='bx bxl-github' ></i></a>
+                    </div>
+            </div>
+             
+            <div class="port-box">
+                <div class="port-image">
+                  <img src="bmical.png" alt="" width="300" height="200">
+                </div>
+                    <div class="port-content">
+                     <h3>BMI Calculator</h3>
+                     <p>The Body Mass Index (BMI) calculator is a web application designed to help users
+                        calculate their BMI based on their height and weight. BMI is a measure of body 
+                        fat based on an individual’s weight in relation to their height.</p>
+                     <a href="https://codewithcurious.com/projects/interactive-login-and-registration-form/"><i class='bx bxl-google' ></i></a>
+                    </div>
+            </div>
+
+            <div class="port-box">
+                <div class="port-image">
+                    <img src="wraderapp.png" alt="" width="300" height="200">
+                </div>
+                    <div class="port-content">
+                        <h3>Weather App Using Django in Python</h3>
+                        <p>This blog post will show you how to make a weather app using Django. 
+                           Django is a Python web framework that makes it easy to build web applications.
+                           We will use the OpenWeatherMap API to get weather data for different cities. </p>
+                        <a href="https://codewithcurious.com/projects/create-weather-app-using-django/"><i class='bx bxl-google'></i></a>
+                    </div>
+            </div>
+
+            <div class="port-box">
+                <div class="port-image">
+                          <img src="chatapp.png" alt="" width="300" height="200">
+                </div>
+                    <div class="port-content">
+                        <h3>Real-Time Chat Application Using HTML, CSS & JavaScript</h3>
+                        <p>The Real-Time Chat Application is a web-based platform that enables users
+                             to communicate with each other in real-time using text messages.</p>
+                        <a href="https://codewithcurious.com/projects/real-time-chat-application-using-html-css-javascript/"><i class='bx bxl-google'></i></a>
+                    </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- contact section -->
+    <section  class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <!-- footer -->
+    <footer>
+        <p>&copy; 2023  by Aya Mouate</p>
+    </footer>
+</body>
+</html>
